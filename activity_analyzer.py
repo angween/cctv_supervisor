@@ -296,8 +296,10 @@ class PhoneDetector:
     2. Person's head is tilted downward (looking at phone).
     """
 
-    def __init__(self, proximity_px: float = 100.0):
+    def __init__(self, proximity_px: float = 100.0, require_phone_object: bool = True, pose_threshold: float = 0.5):
         self.proximity_px = proximity_px
+        self.require_phone_object = require_phone_object
+        self.pose_threshold = pose_threshold
 
     def detect(self, person: PersonDetection, phone_bboxes: list) -> Optional[float]:
         """Check if person is using a phone.
@@ -448,8 +450,17 @@ class PhoneDetector:
                     if sh_y < hands_y < hip_y:
                         score += 0.3
 
+        # If we require a phone object but none was detected, return None
+        if self.require_phone_object and not phone_near_hand:
+            return None
+
         final_score = min(score, 1.0)
-        return final_score if final_score >= 0.5 else None
+        
+        # Use pose_threshold if no phone object was detected (and require_phone_object is False)
+        # Otherwise use the default 0.5 threshold
+        effective_threshold = self.pose_threshold if not phone_near_hand else 0.5
+        
+        return final_score if final_score >= effective_threshold else None
 
 
 # ===================================================================
@@ -482,7 +493,9 @@ class ActivityAnalyzer:
             proximity_ratio=config.CHAT_PROXIMITY_RATIO
         )
         self.phone_detector = PhoneDetector(
-            proximity_px=config.PHONE_PROXIMITY_PX
+            proximity_px=config.PHONE_PROXIMITY_PX,
+            require_phone_object=config.REQUIRE_PHONE_OBJECT,
+            pose_threshold=config.PHONE_POSE_THRESHOLD
         )
 
         logger.info(

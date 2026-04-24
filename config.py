@@ -49,6 +49,10 @@ class Config:
     CHAT_PROXIMITY_RATIO = 0.30         # fraction of frame width
     PHONE_PROXIMITY_PX = 100            # pixels — wrist to phone distance
     CHAT_PRE_DURATION = 5.0             # seconds before counting as chatting
+    
+    # Phone Detection Specifics
+    REQUIRE_PHONE_OBJECT = True         # If True, must detect 'cell phone' object
+    PHONE_POSE_THRESHOLD = 0.8          # threshold if REQUIRE_PHONE_OBJECT is False
 
     # Violation Tracking
     ACTIVITY_GAP_TOLERANCE = 5.0        # seconds — max gap before resetting counter

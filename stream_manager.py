@@ -58,7 +58,7 @@ class StreamCapture(threading.Thread):
         while not self._stop_event.is_set():
             cap = None
             try:
-                logger.info(f"[Channel {self.channel}] Connecting to {self.url}")
+                logger.info(f"[Channel {self.channel}] Connecting to Channel {self.channel}")
                 cap = cv2.VideoCapture(self.url, cv2.CAP_FFMPEG)
 
                 # Set buffer size to minimize latency

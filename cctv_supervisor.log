@@ -2022,3 +2022,1649 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 2026-04-22 09:00:07 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 0 | Active: 1
 2026-04-22 09:00:11 | INFO    | CCTVSupervisor       | Processing: 25.8 loops/s | Streams: 1/1 | Events: 1 | Active: 2
 2026-04-22 09:00:15 | INFO    | CCTVSupervisor       | Processing: 25.6 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:00:18 | WARNING | violation_tracker    | [Ch 16] VIOLATION: phone_usage for 120s
+2026-04-22 09:00:18 | INFO    | logger_csv           | Logged violation: Ch16 phone_usage (120s)
+2026-04-22 09:00:20 | WARNING | CCTVSupervisor       | [VIOLATION] Ch16 -- phone_usage (120s)
+2026-04-22 09:00:21 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:00:25 | INFO    | CCTVSupervisor       | Processing: 24.8 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:00:29 | INFO    | CCTVSupervisor       | Processing: 24.3 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:00:33 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:00:37 | INFO    | CCTVSupervisor       | Processing: 24.9 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:00:41 | INFO    | CCTVSupervisor       | Processing: 25.9 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:00:45 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:00:49 | INFO    | CCTVSupervisor       | Processing: 24.8 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:00:53 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:00:57 | INFO    | CCTVSupervisor       | Processing: 25.4 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:01 | INFO    | CCTVSupervisor       | Processing: 25.4 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:01:05 | INFO    | CCTVSupervisor       | Processing: 24.6 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:09 | INFO    | CCTVSupervisor       | Processing: 24.9 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:12 | INFO    | CCTVSupervisor       | Processing: 26.2 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:01:16 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:20 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:01:24 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:28 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:01:32 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:01:38 | INFO    | CCTVSupervisor       | Processing: 17.8 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:42 | INFO    | CCTVSupervisor       | Processing: 25.4 loops/s | Streams: 1/1 | Events: 2 | Active: 1
+2026-04-22 09:01:46 | INFO    | CCTVSupervisor       | Processing: 25.4 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:01:50 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:01:54 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:01:58 | INFO    | CCTVSupervisor       | Processing: 25.7 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:01 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:06 | INFO    | CCTVSupervisor       | Processing: 24.5 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:02:09 | INFO    | CCTVSupervisor       | Processing: 26.4 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:02:13 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:17 | INFO    | CCTVSupervisor       | Processing: 26.6 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:02:21 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:02:25 | INFO    | CCTVSupervisor       | Processing: 26.8 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:02:29 | INFO    | CCTVSupervisor       | Processing: 25.6 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:02:32 | INFO    | CCTVSupervisor       | Processing: 25.9 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:36 | INFO    | CCTVSupervisor       | Processing: 25.6 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:40 | INFO    | CCTVSupervisor       | Processing: 26.3 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:44 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:02:48 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:02:52 | INFO    | CCTVSupervisor       | Processing: 26.1 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:02:56 | INFO    | CCTVSupervisor       | Processing: 25.8 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:03:00 | INFO    | CCTVSupervisor       | Processing: 25.8 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:03:04 | INFO    | CCTVSupervisor       | Processing: 24.6 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:03:08 | INFO    | CCTVSupervisor       | Processing: 25.8 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:12 | INFO    | CCTVSupervisor       | Processing: 24.6 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:16 | INFO    | CCTVSupervisor       | Processing: 25.0 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:03:20 | INFO    | CCTVSupervisor       | Processing: 26.0 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:03:23 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:03:27 | INFO    | CCTVSupervisor       | Processing: 25.7 loops/s | Streams: 1/1 | Events: 2 | Active: 2
+2026-04-22 09:03:31 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:35 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:39 | INFO    | CCTVSupervisor       | Processing: 25.5 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:03:43 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:03:47 | INFO    | CCTVSupervisor       | Processing: 24.7 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:51 | INFO    | CCTVSupervisor       | Processing: 25.3 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:03:55 | INFO    | CCTVSupervisor       | Processing: 25.6 loops/s | Streams: 1/1 | Events: 0 | Active: 1
+2026-04-22 09:03:59 | INFO    | CCTVSupervisor       | Processing: 25.7 loops/s | Streams: 1/1 | Events: 0 | Active: 2
+2026-04-22 09:04:03 | INFO    | CCTVSupervisor       | Processing: 25.2 loops/s | Streams: 1/1 | Events: 1 | Active: 2
+2026-04-22 09:04:07 | INFO    | CCTVSupervisor       | Processing: 24.7 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:04:11 | INFO    | CCTVSupervisor       | Processing: 24.9 loops/s | Streams: 1/1 | Events: 1 | Active: 1
+2026-04-22 09:04:14 | INFO    | root                 | Received interrupt signal
+2026-04-22 09:04:14 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 09:04:14 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-22 09:04:14 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 09:04:14 | INFO    | logger_csv           | CSV logger closed
+2026-04-22 09:04:15 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 09:04:15 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 09:04:15 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 09:04:15 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Channels: [16, 17, 18, 19]
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Display: False
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-22 09:04:46 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-22 09:04:47 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-22 09:04:48 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-22 09:04:48 | INFO    | detector             | Pose model loaded successfully
+2026-04-22 09:04:48 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-22 09:04:48 | INFO    | detector             | Detection model loaded successfully
+2026-04-22 09:04:48 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-22 09:04:48 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-22 09:04:48 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-22 09:04:48 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-22 09:04:49 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-22 09:04:49 | INFO    | CCTVSupervisor       | Telegram connected ✓
+2026-04-22 09:04:49 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-22 09:04:49 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-22 09:04:49 | INFO    | stream_manager       | [Channel 16] Connecting to rtsp://pooling:YamahaNo1@172.16.0.187:554/Streaming/Channels/1602
+2026-04-22 09:04:49 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-22 09:04:49 | INFO    | stream_manager       | [Channel 17] Connecting to rtsp://pooling:YamahaNo1@172.16.0.187:554/Streaming/Channels/1702
+2026-04-22 09:04:49 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-22 09:04:49 | INFO    | stream_manager       | [Channel 18] Connecting to rtsp://pooling:YamahaNo1@172.16.0.187:554/Streaming/Channels/1802
+2026-04-22 09:04:49 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-22 09:04:49 | INFO    | stream_manager       | [Channel 19] Connecting to rtsp://pooling:YamahaNo1@172.16.0.187:554/Streaming/Channels/1902
+2026-04-22 09:04:49 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-22 09:04:51 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-22 09:04:52 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-22 09:04:53 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-22 09:04:54 | INFO    | CCTVSupervisor       | Streams connected: 3/4 — {16: True, 17: True, 18: False, 19: True}
+2026-04-22 09:04:54 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:04:54 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-22 09:04:54 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:04:55 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-22 09:05:00 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:05:05 | INFO    | CCTVSupervisor       | Processing: 20.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:10 | INFO    | CCTVSupervisor       | Processing: 20.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:15 | INFO    | CCTVSupervisor       | Processing: 21.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:19 | INFO    | CCTVSupervisor       | Processing: 21.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:05:24 | INFO    | CCTVSupervisor       | Processing: 20.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:29 | INFO    | CCTVSupervisor       | Processing: 21.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:34 | INFO    | CCTVSupervisor       | Processing: 21.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:38 | INFO    | CCTVSupervisor       | Processing: 21.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:43 | INFO    | CCTVSupervisor       | Processing: 20.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:05:48 | INFO    | CCTVSupervisor       | Processing: 21.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:05:53 | INFO    | CCTVSupervisor       | Processing: 21.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:05:57 | INFO    | CCTVSupervisor       | Processing: 20.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:02 | INFO    | CCTVSupervisor       | Processing: 20.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:07 | INFO    | CCTVSupervisor       | Processing: 20.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:12 | INFO    | CCTVSupervisor       | Processing: 21.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:17 | INFO    | CCTVSupervisor       | Processing: 20.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:21 | INFO    | CCTVSupervisor       | Processing: 21.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:06:22 | INFO    | root                 | Received interrupt signal
+2026-04-22 09:06:22 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 09:06:22 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-22 09:06:22 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-22 09:06:22 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-22 09:06:22 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-22 09:06:22 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 09:06:23 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 09:06:23 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 09:06:23 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 09:06:23 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Channels: [16, 17, 18, 19]
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Display: True
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-22 09:06:55 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-22 09:06:56 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-22 09:06:57 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-22 09:06:57 | INFO    | detector             | Pose model loaded successfully
+2026-04-22 09:06:57 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-22 09:06:57 | INFO    | detector             | Detection model loaded successfully
+2026-04-22 09:06:57 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-22 09:06:57 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-22 09:06:57 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-22 09:06:57 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-22 09:06:57 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-22 09:06:58 | INFO    | CCTVSupervisor       | Telegram connected ✓
+2026-04-22 09:06:58 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-22 09:06:58 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-22 09:06:58 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-22 09:06:58 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-22 09:06:58 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-22 09:06:58 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-22 09:06:58 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-22 09:06:58 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-22 09:06:58 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-22 09:06:58 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-22 09:06:59 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-22 09:07:01 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-22 09:07:02 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-22 09:07:03 | INFO    | CCTVSupervisor       | Streams connected: 3/4 — {16: True, 17: True, 18: False, 19: True}
+2026-04-22 09:07:03 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:07:03 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-22 09:07:03 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 09:07:03 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-22 09:07:13 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:07:20 | INFO    | CCTVSupervisor       | Processing: 14.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:07:26 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:07:33 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:07:39 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:07:46 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:07:52 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:07:59 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:08:05 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:08:12 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:08:18 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:08:25 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:08:31 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:08:38 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:08:44 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:08:51 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:08:57 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:09:04 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:09:10 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:09:16 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:09:23 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:09:29 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:09:36 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:09:42 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:09:49 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:09:55 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:10:02 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:08 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:10:15 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:10:21 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:10:27 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:34 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:40 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:46 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:53 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:10:59 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:06 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:12 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:18 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:26 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:33 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:11:39 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:45 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:11:52 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:11:58 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:05 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:11 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:18 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:24 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:12:30 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:12:37 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:44 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:50 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:12:57 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:03 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:13:10 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:16 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:13:23 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:29 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:13:36 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:42 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:49 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:13:55 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:14:02 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:08 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:14:14 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:21 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:27 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:34 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:14:40 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:47 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:14:53 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:14:59 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:06 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:12 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:19 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:25 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:32 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:38 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:45 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:51 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:15:57 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:16:04 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:16:10 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:16:17 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:16:23 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:16:30 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:16:36 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:16:42 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:16:49 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:16:55 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:17:02 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:17:08 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:17:15 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:17:21 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:17:27 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:17:34 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:17:40 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:17:46 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:17:53 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:18:00 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:18:06 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 3
+2026-04-22 09:18:13 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:18:19 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:18:26 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:18:32 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:18:39 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:18:45 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:18:52 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:18:58 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:19:05 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:19:11 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:19:18 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:19:24 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:19:31 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:19:37 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:19:44 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:19:51 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:19:57 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:20:04 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:20:10 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 09:20:17 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:20:23 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:20:30 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:20:36 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:20:43 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:20:49 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 3
+2026-04-22 09:20:56 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:21:02 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:21:09 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:21:15 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:21:22 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:21:28 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:21:35 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:21:41 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:21:48 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:21:54 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:00 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:22:07 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:13 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 09:22:20 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:27 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:33 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:40 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:22:46 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 09:22:53 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:22:59 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:23:06 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:23:12 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 09:23:19 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:23:25 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:23:32 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:23:38 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:23:44 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:23:51 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:23:57 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:24:04 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 09:24:10 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:24:17 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 09:24:25 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:24:31 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:24:38 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:24:44 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:24:50 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 09:24:57 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:04 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:10 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 09:25:17 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:24 | INFO    | CCTVSupervisor       | Processing: 14.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:30 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:37 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:44 | INFO    | CCTVSupervisor       | Processing: 13.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 09:25:46 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-22 09:25:46 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-22 09:25:46 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 09:25:46 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-22 09:25:46 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-22 09:25:46 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-22 09:25:46 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-22 09:25:46 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 09:25:46 | INFO    | display              | Display closed
+2026-04-22 09:25:47 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Channels: [17, 16, 18, 19]
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Display: True
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-22 11:56:01 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-22 11:56:05 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-22 11:56:08 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-22 11:56:09 | INFO    | detector             | Pose model loaded successfully
+2026-04-22 11:56:09 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-22 11:56:09 | INFO    | detector             | Detection model loaded successfully
+2026-04-22 11:56:09 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-22 11:56:09 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-22 11:56:09 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-22 11:56:09 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-22 11:56:09 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-22 11:56:10 | INFO    | CCTVSupervisor       | Telegram connected ✓
+2026-04-22 11:56:10 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-22 11:56:10 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-22 11:56:10 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-22 11:56:10 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-22 11:56:10 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-22 11:56:10 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-22 11:56:10 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-22 11:56:10 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-22 11:56:10 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-22 11:56:10 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-22 11:56:11 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-22 11:56:13 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-22 11:56:14 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-22 11:56:15 | INFO    | CCTVSupervisor       | Streams connected: 3/4 — {17: True, 16: False, 18: True, 19: True}
+2026-04-22 11:56:15 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 11:56:15 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-22 11:56:15 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 11:56:15 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-22 11:56:29 | INFO    | CCTVSupervisor       | Processing: 7.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 11:56:38 | INFO    | CCTVSupervisor       | Processing: 10.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 11:56:48 | INFO    | CCTVSupervisor       | Processing: 10.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:56:57 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:57:06 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:57:15 | INFO    | CCTVSupervisor       | Processing: 10.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:57:24 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:57:33 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:57:43 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:57:52 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:01 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:10 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:58:19 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:28 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:36 | INFO    | CCTVSupervisor       | Processing: 13.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:44 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:58:52 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:59:01 | INFO    | CCTVSupervisor       | Processing: 11.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:59:09 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 11:59:19 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 11:59:28 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 11:59:36 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 11:59:46 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 11:59:55 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:04 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:12 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:21 | INFO    | CCTVSupervisor       | Processing: 11.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:30 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:39 | INFO    | CCTVSupervisor       | Processing: 11.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:00:48 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:00:58 | INFO    | CCTVSupervisor       | Processing: 10.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:01:07 | INFO    | CCTVSupervisor       | Processing: 10.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:01:17 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:01:26 | INFO    | CCTVSupervisor       | Processing: 10.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:01:35 | INFO    | CCTVSupervisor       | Processing: 10.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:01:45 | INFO    | CCTVSupervisor       | Processing: 10.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:01:54 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:02:04 | INFO    | CCTVSupervisor       | Processing: 10.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:02:13 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:02:23 | INFO    | CCTVSupervisor       | Processing: 10.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:02:32 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:02:41 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:02:51 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:03:00 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:09 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:17 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:26 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:35 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:43 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:03:51 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:04:00 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:04:08 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:04:17 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:04:25 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:04:34 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:04:42 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:04:50 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:04:59 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:05:07 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:05:15 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:05:24 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:05:32 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:05:41 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:05:49 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:05:58 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:06:06 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:06:14 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:06:23 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:06:31 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:06:40 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:06:48 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:06:57 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:07:05 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:07:14 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:07:22 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:07:31 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:07:40 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:07:48 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:07:56 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:08:04 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:08:12 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:08:20 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:08:29 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:08:37 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:08:45 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:08:53 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:09:01 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:09:09 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:09:17 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:09:25 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:09:33 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:09:41 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:09:49 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:09:57 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:10:05 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:12 | INFO    | CCTVSupervisor       | Processing: 13.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:20 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:28 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:36 | INFO    | CCTVSupervisor       | Processing: 13.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:44 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:51 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:10:59 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:07 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:15 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:23 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:31 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:11:39 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:47 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:11:55 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:04 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:12 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:21 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:29 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:12:37 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:46 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:12:54 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:13:03 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:13:11 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:13:20 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:13:28 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:13:37 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:13:45 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:13:54 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:02 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:14:11 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:19 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:28 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:36 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:45 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:14:53 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:01 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:10 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:18 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:26 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:34 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:43 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:51 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:15:59 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:07 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:15 | INFO    | CCTVSupervisor       | Processing: 12.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:23 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:30 | INFO    | CCTVSupervisor       | Processing: 13.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:38 | INFO    | CCTVSupervisor       | Processing: 12.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:46 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:16:54 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:02 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:10 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:18 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:26 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:34 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:17:42 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:17:50 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:17:59 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:18:07 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:18:15 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:18:23 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:18:32 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:18:40 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:18:48 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:18:56 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:19:04 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:19:13 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:19:21 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:19:29 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:19:38 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:19:46 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 2 | Active: 2
+2026-04-22 12:19:55 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:20:03 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:20:11 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:20:19 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:20:28 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:20:36 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:20:45 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:20:53 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:21:01 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:21:10 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:21:19 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:21:27 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:21:36 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:21:44 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:21:53 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:01 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:09 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:18 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:26 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:34 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:43 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:22:51 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:23:00 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:23:08 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:23:16 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:23:24 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:23:32 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:23:40 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:23:49 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:23:57 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:05 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:13 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:21 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:24:29 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:38 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:46 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:24:54 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:25:02 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:10 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:18 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:27 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:35 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:25:43 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:51 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:25:59 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:26:07 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:26:15 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:26:23 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:26:32 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:26:40 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:26:48 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:26:56 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:27:04 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:27:13 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:27:21 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:27:29 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:27:37 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:27:45 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:27:53 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:01 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:09 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:17 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:25 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:34 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:28:42 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:28:51 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:28:59 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:29:08 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:29:16 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:29:24 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:29:32 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:29:40 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:29:49 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:29:57 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:30:05 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:30:13 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:30:22 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:30:30 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:30:38 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:30:46 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:30:55 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:03 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:11 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:20 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:28 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:36 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:45 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:31:53 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:32:02 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:32:10 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:32:18 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:32:27 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:32:35 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:32:44 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:32:52 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:00 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:09 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:17 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:26 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:34 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:33:43 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:33:52 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:34:00 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:34:09 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:34:17 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:34:26 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:34:35 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:34:43 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:34:51 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:35:00 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:35:08 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:35:16 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:35:24 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:35:33 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:35:41 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:35:49 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:35:57 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:36:05 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:36:14 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 2 | Active: 3
+2026-04-22 12:36:22 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:36:30 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:36:38 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:36:46 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:36:55 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:37:03 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:37:11 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:37:19 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:37:27 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:37:35 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:37:43 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:37:52 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:38:00 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:38:08 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:38:16 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:38:25 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:38:33 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:38:42 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 12:38:51 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 12:39:00 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:39:09 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:17 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:25 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:34 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:42 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:51 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:39:59 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:08 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:17 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:25 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:33 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:42 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:50 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:40:58 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:06 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:14 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:23 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:31 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:39 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:47 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:41:55 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:04 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:11 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:20 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:28 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:36 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:44 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:42:52 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:00 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:09 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:17 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:25 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:43:33 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:41 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:50 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:43:58 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:07 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:15 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:23 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:31 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:39 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:48 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:44:56 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:04 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:12 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:20 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:28 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:36 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:44 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:45:52 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:00 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:09 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:17 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:25 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:33 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:41 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:46:49 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:46:58 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:47:06 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:47:14 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:47:23 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:47:31 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:47:39 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:47:48 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:47:56 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:48:04 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:48:12 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:48:21 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:48:29 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:48:37 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:48:46 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:48:54 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:49:02 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:49:10 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:49:19 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:49:27 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:49:35 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:49:43 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:49:51 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:49:59 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:50:07 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:50:15 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:50:23 | INFO    | CCTVSupervisor       | Processing: 12.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:50:31 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:50:39 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:50:47 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:50:55 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:03 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:11 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:19 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:27 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:35 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:44 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:51:52 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:52:00 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:52:09 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:17 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:25 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:34 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:42 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:50 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:52:59 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:07 | INFO    | CCTVSupervisor       | Processing: 12.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:14 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:23 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:31 | INFO    | CCTVSupervisor       | Processing: 12.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:39 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:47 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:53:55 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:54:03 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:12 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:20 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:28 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:37 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:45 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:54:53 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:01 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:09 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:18 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:26 | INFO    | CCTVSupervisor       | Processing: 12.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:34 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:42 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:50 | INFO    | CCTVSupervisor       | Processing: 12.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:55:59 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:56:07 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:56:16 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:56:25 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:56:33 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:56:41 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:56:50 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:56:58 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:57:07 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:57:15 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:57:24 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:57:32 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:57:41 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:57:49 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:57:58 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:58:06 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:58:15 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:58:23 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:58:32 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:58:40 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:58:48 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:58:57 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 12:59:05 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:59:13 | INFO    | CCTVSupervisor       | Processing: 12.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:59:22 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:59:30 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:59:39 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 12:59:47 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 12:59:55 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:00:04 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:00:12 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:00:21 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:00:29 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:00:38 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:00:46 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:00:55 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:01:03 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 3
+2026-04-22 13:01:11 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:01:20 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:01:28 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:01:36 | INFO    | CCTVSupervisor       | Processing: 12.0 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:01:45 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:01:53 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 2 | Active: 2
+2026-04-22 13:02:02 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:02:11 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:02:20 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:02:29 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:02:38 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:02:47 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:02:56 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:03:05 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:03:15 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:03:24 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:03:33 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:03:42 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:03:51 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:04:01 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:04:10 | INFO    | CCTVSupervisor       | Processing: 10.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:04:19 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:04:29 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:04:38 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:04:47 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:04:56 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:05:05 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:05:15 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:05:24 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:05:33 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:05:42 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:05:51 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:06:01 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:06:10 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:06:19 | WARNING | violation_tracker    | [Ch 19] VIOLATION: chatting for 121s
+2026-04-22 13:06:19 | INFO    | logger_csv           | Logged violation: Ch19 chatting (121s)
+2026-04-22 13:06:21 | WARNING | CCTVSupervisor       | [VIOLATION] Ch19 -- chatting (121s)
+2026-04-22 13:06:21 | INFO    | CCTVSupervisor       | Processing: 8.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:06:30 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:06:39 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:06:48 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:06:57 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:07:06 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:07:15 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:07:25 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:07:34 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:07:43 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:07:52 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:08:01 | INFO    | CCTVSupervisor       | Processing: 11.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:08:10 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:08:19 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:08:28 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:08:37 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:08:46 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:08:55 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:05 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:13 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:09:22 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:30 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:39 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:47 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:09:56 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:10:04 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:10:13 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:10:21 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:10:30 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:10:38 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:10:47 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:10:56 | INFO    | CCTVSupervisor       | Processing: 11.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:11:04 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:11:13 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:11:21 | INFO    | CCTVSupervisor       | Processing: 11.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:11:30 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:11:38 | INFO    | CCTVSupervisor       | Processing: 11.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:11:47 | INFO    | CCTVSupervisor       | Processing: 11.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:11:56 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:12:05 | INFO    | CCTVSupervisor       | Processing: 10.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:12:14 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:12:23 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:12:32 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:12:41 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:12:50 | INFO    | CCTVSupervisor       | Processing: 11.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:12:59 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:13:08 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:13:17 | INFO    | CCTVSupervisor       | Processing: 11.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:13:26 | INFO    | CCTVSupervisor       | Processing: 10.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:13:35 | INFO    | CCTVSupervisor       | Processing: 11.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:13:44 | INFO    | CCTVSupervisor       | Processing: 10.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:13:47 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-22 13:13:47 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-22 13:13:47 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 13:13:47 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-22 13:13:47 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-22 13:13:47 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-22 13:13:47 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-22 13:13:47 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 13:13:47 | INFO    | logger_csv           | CSV logger closed
+2026-04-22 13:13:47 | INFO    | display              | Display closed
+2026-04-22 13:13:48 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Channels: [17, 16, 18, 19]
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Display: False
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-22 13:13:59 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-22 13:14:03 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-22 13:14:05 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-22 13:14:05 | INFO    | detector             | Pose model loaded successfully
+2026-04-22 13:14:05 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-22 13:14:05 | INFO    | detector             | Detection model loaded successfully
+2026-04-22 13:14:05 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-22 13:14:05 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-22 13:14:05 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-22 13:14:05 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-22 13:14:05 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-22 13:14:06 | INFO    | CCTVSupervisor       | Telegram connected ✓
+2026-04-22 13:14:06 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-22 13:14:06 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-22 13:14:06 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-22 13:14:06 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-22 13:14:06 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-22 13:14:06 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-22 13:14:06 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-22 13:14:06 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-22 13:14:06 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-22 13:14:06 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-22 13:14:07 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-22 13:14:09 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-22 13:14:10 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-22 13:14:11 | INFO    | CCTVSupervisor       | Streams connected: 3/4 — {17: True, 16: True, 18: False, 19: True}
+2026-04-22 13:14:11 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 13:14:11 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-22 13:14:11 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-22 13:14:11 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-22 13:14:19 | INFO    | CCTVSupervisor       | Processing: 12.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:14:26 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:14:32 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:14:38 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:14:45 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:14:51 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:14:58 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:15:05 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:15:11 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:15:17 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:15:24 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:15:30 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:15:36 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:15:43 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:15:49 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:15:55 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:02 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:08 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:16:14 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:21 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:27 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:34 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:40 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:47 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:16:53 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:16:59 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:17:05 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:12 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:18 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:25 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:31 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:37 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:44 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:49 | WARNING | violation_tracker    | [Ch 19] VIOLATION: chatting for 120s
+2026-04-22 13:17:49 | INFO    | logger_csv           | Logged violation: Ch19 chatting (120s)
+2026-04-22 13:17:51 | WARNING | CCTVSupervisor       | [VIOLATION] Ch19 -- chatting (120s)
+2026-04-22 13:17:52 | INFO    | CCTVSupervisor       | Processing: 11.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:17:59 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:18:06 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:12 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:19 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:25 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:32 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:38 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:45 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:51 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:18:58 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:04 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:11 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:17 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:24 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:30 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:37 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:19:43 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:50 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:19:56 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:03 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:09 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:16 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:22 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:29 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:36 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:42 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:49 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:20:56 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:21:02 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:21:09 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:21:15 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:21:21 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:21:28 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:21:34 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:21:41 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:21:47 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:21:54 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:22:00 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:22:07 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 2 | Active: 2
+2026-04-22 13:22:14 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:22:21 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:22:27 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:22:34 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:22:40 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:22:47 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:22:53 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:23:00 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:23:07 | INFO    | CCTVSupervisor       | Processing: 14.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:23:14 | INFO    | CCTVSupervisor       | Processing: 14.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:23:21 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:23:27 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:23:34 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:23:40 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:23:47 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:23:54 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:24:00 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:24:07 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:24:13 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:24:19 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:24:25 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:24:32 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:24:38 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:24:44 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:24:51 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:24:57 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:25:03 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:25:10 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:25:16 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:25:23 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:29 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:35 | INFO    | CCTVSupervisor       | Processing: 16.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:41 | INFO    | CCTVSupervisor       | Processing: 16.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:47 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:53 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:25:59 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:06 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:12 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:18 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:24 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:31 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:37 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:26:43 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:26:50 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:26:56 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:02 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:09 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:27:15 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:27:21 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:27:27 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:34 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:40 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:46 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:52 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:27:58 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:04 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:10 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:16 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:23 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:29 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:35 | INFO    | CCTVSupervisor       | Processing: 16.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:41 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:47 | INFO    | CCTVSupervisor       | Processing: 16.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:53 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:28:59 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:06 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:12 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:29:18 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:24 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:31 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:29:37 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:44 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:50 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:29:56 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:30:02 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:30:09 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:30:15 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:30:22 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:30:28 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:30:34 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:30:40 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:30:47 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:30:53 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:30:59 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:31:05 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:12 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:18 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:24 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:31 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:37 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:43 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:31:50 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:31:56 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:02 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:08 | INFO    | CCTVSupervisor       | Processing: 16.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:14 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:20 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:26 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:33 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:32:39 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:45 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:52 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:32:58 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:04 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:11 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:17 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:23 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:29 | INFO    | CCTVSupervisor       | Processing: 16.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:35 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:41 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:33:47 | INFO    | CCTVSupervisor       | Processing: 16.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:33:54 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:00 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:06 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:12 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:19 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:25 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:32 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:38 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:44 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:50 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:34:57 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:03 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:10 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:16 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:23 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:29 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:36 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:42 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:48 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:35:55 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:01 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:08 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:14 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:20 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:26 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:36:33 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:36:39 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:45 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:52 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:36:58 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:37:04 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:37:11 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:37:17 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:37:24 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:37:30 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:37:37 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:37:44 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:37:50 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:37:57 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:38:03 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:38:10 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:38:16 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:38:23 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:38:29 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:38:36 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:38:42 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:38:49 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:38:55 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:01 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:08 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:15 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:21 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:27 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:34 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:40 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:39:47 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:53 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:39:59 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:05 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:11 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:18 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:24 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:31 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:37 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:40:43 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:40:49 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:40:56 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:41:02 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:41:08 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:41:14 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:41:21 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:41:27 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:41:34 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:41:40 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:41:47 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:41:54 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:42:00 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:42:06 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:42:13 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:42:19 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:42:26 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:42:32 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:42:39 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:42:45 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:42:51 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:42:57 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:04 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:10 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:17 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:23 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:30 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:36 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:43 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:43:49 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:43:56 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:02 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:08 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:14 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:21 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:27 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:44:34 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:40 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:47 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:53 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:44:59 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:05 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:11 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:18 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:24 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:30 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:36 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:43 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:49 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:45:55 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:02 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:08 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:14 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:20 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:27 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:33 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:40 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:46 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:52 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:46:59 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:05 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:11 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:18 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:24 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:30 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:37 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:47:43 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:47:50 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:47:56 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:03 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:09 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:15 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:21 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:28 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:34 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:40 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:47 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:48:53 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:48:59 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:05 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:11 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:18 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:24 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:30 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:37 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:43 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:49 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:49:55 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:02 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:08 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:14 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:21 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:27 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:33 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:40 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:50:47 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:53 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:50:59 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:06 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:12 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:18 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:25 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:31 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:51:37 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:51:43 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:51:50 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:51:56 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:03 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:09 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:15 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:22 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:28 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:35 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:41 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:48 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:52:54 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:53:01 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:53:07 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:53:14 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:53:21 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:53:27 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:53:34 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:53:40 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:53:47 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:53:54 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:54:01 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:54:07 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:54:14 | INFO    | CCTVSupervisor       | Processing: 14.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:54:21 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:54:27 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:54:34 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:54:40 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:54:47 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:54:54 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:55:00 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:55:07 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 13:55:13 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 13:55:19 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:26 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:32 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:39 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:45 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:52 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:55:58 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:05 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:11 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:18 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:24 | INFO    | CCTVSupervisor       | Processing: 16.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:30 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:37 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:43 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:56:50 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:56:56 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:57:03 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:57:10 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:16 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:22 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:57:29 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:35 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:42 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:48 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:57:55 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:01 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:08 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:14 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:58:20 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:27 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:33 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:40 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:58:46 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:58:52 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:58:59 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:59:05 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:59:12 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:59:18 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:59:25 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 13:59:31 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:59:38 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 13:59:44 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:59:50 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 13:59:57 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:00:03 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:00:10 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:00:16 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:00:23 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:00:30 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:00:36 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:00:43 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 14:00:50 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:00:57 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:01:03 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:01:10 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:01:16 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:01:23 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:01:29 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:01:36 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:01:42 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:01:49 | INFO    | CCTVSupervisor       | Processing: 14.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:01:56 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:02:03 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:02:09 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:02:16 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:02:22 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:02:29 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:02:36 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:02:42 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:02:49 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:02:55 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:01 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:08 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:14 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:21 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:03:27 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:34 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:41 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:48 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:03:55 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:04:01 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:04:08 | INFO    | CCTVSupervisor       | Processing: 14.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:04:15 | INFO    | CCTVSupervisor       | Processing: 14.6 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:04:22 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:04:29 | INFO    | CCTVSupervisor       | Processing: 14.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:04:36 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:04:42 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:04:49 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:04:55 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:05:02 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:05:08 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:05:15 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:05:22 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 0 | Active: 3
+2026-04-22 14:05:29 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:05:35 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 3
+2026-04-22 14:05:42 | INFO    | CCTVSupervisor       | Processing: 14.5 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:05:49 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 14:05:56 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:06:02 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:06:09 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:06:16 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:06:22 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:06:29 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 2
+2026-04-22 14:06:35 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:06:42 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:06:49 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:06:55 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:01 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:08 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:14 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:21 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:27 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:34 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:40 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:47 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:53 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:07:59 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:06 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:12 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:18 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:25 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:31 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:38 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:44 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:50 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:08:57 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:03 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:09 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:16 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:09:22 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:29 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:09:35 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:42 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:09:48 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:09:54 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:10:01 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:10:07 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:10:13 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:10:19 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:26 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:32 | INFO    | CCTVSupervisor       | Processing: 16.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:38 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:44 | INFO    | CCTVSupervisor       | Processing: 16.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:51 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:10:57 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:11:04 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:11:10 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:11:17 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:11:23 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:11:30 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:11:36 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:11:43 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:11:49 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:11:56 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:12:02 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:12:09 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:12:15 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:12:21 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:12:28 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:12:34 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:12:41 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:12:47 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:12:54 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:13:00 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:06 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:13:13 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:13:19 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:13:25 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:32 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:38 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:44 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:51 | INFO    | CCTVSupervisor       | Processing: 15.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:13:57 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:04 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:10 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:17 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:23 | INFO    | CCTVSupervisor       | Processing: 15.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:30 | INFO    | CCTVSupervisor       | Processing: 15.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:36 | INFO    | CCTVSupervisor       | Processing: 15.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:14:43 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 2
+2026-04-22 14:14:49 | INFO    | CCTVSupervisor       | Processing: 14.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:14:56 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:15:03 | INFO    | CCTVSupervisor       | Processing: 14.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:09 | INFO    | CCTVSupervisor       | Processing: 15.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-22 14:15:16 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:22 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:29 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:35 | INFO    | CCTVSupervisor       | Processing: 15.0 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-22 14:15:42 | INFO    | CCTVSupervisor       | Processing: 15.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:48 | INFO    | CCTVSupervisor       | Processing: 15.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-22 14:15:52 | INFO    | root                 | Received interrupt signal
+2026-04-22 14:15:52 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 14:15:52 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-22 14:15:52 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-22 14:15:52 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-22 14:15:52 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-22 14:15:52 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 14:15:52 | INFO    | logger_csv           | CSV logger closed
+2026-04-22 14:15:52 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-22 14:15:52 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-22 14:15:52 | INFO    | stream_manager       | All stream captures stopped
+2026-04-22 14:15:53 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Channels: [16, 17, 18, 19]
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Display: False
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-24 10:02:59 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Jumat | Selesai jam 16:00
+2026-04-24 10:03:08 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-24 10:03:11 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-24 10:03:11 | INFO    | detector             | Pose model loaded successfully
+2026-04-24 10:03:11 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-24 10:03:11 | INFO    | detector             | Detection model loaded successfully
+2026-04-24 10:03:11 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-24 10:03:11 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-24 10:03:11 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-24 10:03:11 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-24 10:03:12 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-24 10:03:12 | INFO    | CCTVSupervisor       | Telegram connected ✓
+2026-04-24 10:03:12 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-24 10:03:12 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-24 10:03:12 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-24 10:03:12 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-24 10:03:12 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-24 10:03:12 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-24 10:03:12 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-24 10:03:12 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-24 10:03:12 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-24 10:03:12 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-24 10:03:14 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-24 10:03:15 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-24 10:03:17 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-24 10:03:17 | INFO    | CCTVSupervisor       | Streams connected: 3/4 — {16: True, 17: True, 18: True, 19: False}
+2026-04-24 10:03:17 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-24 10:03:17 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-24 10:03:17 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-24 10:03:18 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-24 10:03:25 | INFO    | CCTVSupervisor       | Processing: 13.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:03:30 | INFO    | CCTVSupervisor       | Processing: 18.8 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:03:35 | INFO    | CCTVSupervisor       | Processing: 19.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:03:41 | INFO    | CCTVSupervisor       | Processing: 19.2 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:03:46 | INFO    | CCTVSupervisor       | Processing: 19.7 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:03:51 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:03:56 | INFO    | CCTVSupervisor       | Processing: 20.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:01 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:04:06 | INFO    | CCTVSupervisor       | Processing: 19.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:11 | INFO    | CCTVSupervisor       | Processing: 20.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
