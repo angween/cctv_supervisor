@@ -3668,3 +3668,14 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 2026-04-24 10:04:01 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 1
 2026-04-24 10:04:06 | INFO    | CCTVSupervisor       | Processing: 19.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
 2026-04-24 10:04:11 | INFO    | CCTVSupervisor       | Processing: 20.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:16 | INFO    | CCTVSupervisor       | Processing: 20.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:21 | INFO    | CCTVSupervisor       | Processing: 19.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:26 | INFO    | CCTVSupervisor       | Processing: 20.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:31 | INFO    | CCTVSupervisor       | Processing: 19.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:04:36 | INFO    | CCTVSupervisor       | Processing: 19.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-24 10:04:41 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:46 | INFO    | CCTVSupervisor       | Processing: 20.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:51 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:04:56 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:05:01 | INFO    | CCTVSupervisor       | Processing: 20.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-24 10:05:06 | INFO    | CCTVSupervisor       | Processing: 20.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
