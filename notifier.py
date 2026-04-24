@@ -31,16 +31,16 @@ class TelegramNotifier:
 
     BASE_URL = "https://api.telegram.org/bot{token}"
 
-    def __init__(self, bot_token: str, chat_id: str, max_retries: int = 3):
+    def __init__(self, bot_token: str, chat_ids: list, max_retries: int = 3):
         """Initialize Telegram notifier.
 
         Args:
             bot_token: Telegram Bot API token.
-            chat_id: Target chat/user ID for notifications.
+            chat_ids: List of target chat/user IDs for notifications.
             max_retries: Maximum retry attempts for failed sends.
         """
         self.bot_token = bot_token
-        self.chat_id = chat_id
+        self.chat_ids = chat_ids
         self.max_retries = max_retries
         self.base_url = self.BASE_URL.format(token=bot_token)
 
@@ -112,41 +112,55 @@ class TelegramNotifier:
             return False
 
     def _send_message(self, text: str) -> bool:
-        """Send a text message via Telegram Bot API."""
+        """Send a text message via Telegram Bot API to all chat IDs."""
+        if not self.chat_ids:
+            logger.warning("No Telegram chat IDs configured")
+            return False
+
         url = f"{self.base_url}/sendMessage"
-        payload = {
-            "chat_id": self.chat_id,
-            "text": text,
-            "parse_mode": "Markdown"
-        }
+        any_success = False
 
-        for attempt in range(1, self.max_retries + 1):
-            try:
-                response = requests.post(url, json=payload, timeout=15)
+        for chat_id in self.chat_ids:
+            payload = {
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "Markdown"
+            }
 
-                if response.status_code == 200 and response.json().get("ok"):
-                    logger.debug("Telegram message sent successfully")
-                    return True
-                else:
+            for attempt in range(1, self.max_retries + 1):
+                try:
+                    response = requests.post(url, json=payload, timeout=15)
+
+                    if response.status_code == 200 and response.json().get("ok"):
+                        logger.debug(f"Telegram message sent successfully to {chat_id}")
+                        any_success = True
+                        break
+                    else:
+                        logger.warning(
+                            f"Telegram send failed to {chat_id} (attempt {attempt}): {response.text}"
+                        )
+
+                except requests.RequestException as e:
                     logger.warning(
-                        f"Telegram send failed (attempt {attempt}): {response.text}"
+                        f"Telegram send error to {chat_id} (attempt {attempt}): {e}"
                     )
 
-            except requests.RequestException as e:
-                logger.warning(
-                    f"Telegram send error (attempt {attempt}): {e}"
-                )
-
-        logger.error("Telegram message send failed after all retries")
-        return False
+        if not any_success:
+            logger.error("Telegram message send failed for all chat IDs")
+        
+        return any_success
 
     def _send_photo(self, frame: np.ndarray, caption: str) -> bool:
-        """Send a photo with caption via Telegram Bot API.
+        """Send a photo with caption via Telegram Bot API to all chat IDs.
 
         Args:
             frame: OpenCV frame (numpy array) to send as photo.
             caption: Caption text for the photo.
         """
+        if not self.chat_ids:
+            logger.warning("No Telegram chat IDs configured")
+            return False
+
         url = f"{self.base_url}/sendPhoto"
 
         # Encode frame as JPEG
@@ -155,35 +169,42 @@ class TelegramNotifier:
             logger.error("Failed to encode frame to JPEG")
             return self._send_message(caption)  # Fallback to text
 
-        photo_bytes = io.BytesIO(buffer.tobytes())
-        photo_bytes.name = "violation.jpg"
+        photo_bytes_data = buffer.tobytes()
+        any_success = False
 
-        for attempt in range(1, self.max_retries + 1):
-            try:
-                photo_bytes.seek(0)
-                response = requests.post(
-                    url,
-                    data={
-                        "chat_id": self.chat_id,
-                        "caption": caption,
-                        "parse_mode": "Markdown"
-                    },
-                    files={"photo": photo_bytes},
-                    timeout=30
-                )
+        for chat_id in self.chat_ids:
+            photo_bytes = io.BytesIO(photo_bytes_data)
+            photo_bytes.name = "violation.jpg"
 
-                if response.status_code == 200 and response.json().get("ok"):
-                    logger.debug("Telegram photo sent successfully")
-                    return True
-                else:
-                    logger.warning(
-                        f"Telegram photo send failed (attempt {attempt}): {response.text}"
+            for attempt in range(1, self.max_retries + 1):
+                try:
+                    photo_bytes.seek(0)
+                    response = requests.post(
+                        url,
+                        data={
+                            "chat_id": chat_id,
+                            "caption": caption,
+                            "parse_mode": "Markdown"
+                        },
+                        files={"photo": photo_bytes},
+                        timeout=30
                     )
 
-            except requests.RequestException as e:
-                logger.warning(
-                    f"Telegram photo send error (attempt {attempt}): {e}"
-                )
+                    if response.status_code == 200 and response.json().get("ok"):
+                        logger.debug(f"Telegram photo sent successfully to {chat_id}")
+                        any_success = True
+                        break
+                    else:
+                        logger.warning(
+                            f"Telegram photo send failed to {chat_id} (attempt {attempt}): {response.text}"
+                        )
 
-        logger.error("Telegram photo send failed after all retries")
-        return False
+                except requests.RequestException as e:
+                    logger.warning(
+                        f"Telegram photo send error to {chat_id} (attempt {attempt}): {e}"
+                    )
+
+        if not any_success:
+            logger.error("Telegram photo send failed for all chat IDs")
+            
+        return any_success

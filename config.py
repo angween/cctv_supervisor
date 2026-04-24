@@ -24,7 +24,11 @@ class Config:
 
     # Telegram Configuration
     TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-    TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+    TELEGRAM_CHAT_IDS = [
+        id_str.strip() 
+        for id_str in os.getenv("TELEGRAM_CHAT_ID", "").split(",") 
+        if id_str.strip()
+    ]
     TELEGRAM_COOLDOWN = int(os.getenv("TELEGRAM_COOLDOWN", "300"))  # 5 minutes
 
     # Detection Settings
