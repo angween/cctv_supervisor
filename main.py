@@ -6,10 +6,10 @@ Monitors multiple CCTV RTSP streams to detect employee activities
 Logs violations to CSV and sends alerts via Telegram.
 
 Usage:
-    python main.py --display true --channel 16,17,18,19
-    python main.py --channel 16
+    python main.py --display true
+    python main.py --batch_size 4 --duration_loop 5
     python main.py --activity sleep on --activity phone off
-    python main.py  (defaults: no display, channel 16 only, sleep off)
+    python main.py  (defaults: no display, batch size 4, duration 5m)
 """
 
 import argparse
@@ -61,10 +61,9 @@ def parse_args() -> argparse.Namespace:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python main.py                          # Channel 16, no display
-  python main.py --display true           # Channel 16, with display
-  python main.py --channel 16,17,18,19    # 4 channels, no display
-  python main.py --display true --channel 16,17,18,19
+  python main.py                          # Default batch processing, no display
+  python main.py --display true           # With display
+  python main.py --batch_size 2 --duration_loop 10
   python main.py --activity sleep on      # Enable sleep detection
   python main.py --activity phone off     # Disable phone detection
   python main.py --activity sleep on --activity chat off
@@ -80,10 +79,17 @@ Examples:
     )
 
     parser.add_argument(
-        "--channel",
-        type=str,
-        default="16",
-        help="Camera channels, comma-separated (default: 16). Example: 16,17,18,19"
+        "--batch_size",
+        type=int,
+        default=4,
+        help="Number of cameras to process simultaneously (default: 4)"
+    )
+
+    parser.add_argument(
+        "--duration_loop",
+        type=int,
+        default=5,
+        help="Duration in minutes to monitor each batch before rotating (default: 5)"
     )
 
     parser.add_argument(
@@ -96,16 +102,6 @@ Examples:
     )
 
     return parser.parse_args()
-
-
-def parse_channels(channel_str: str) -> list:
-    """Parse comma-separated channel string to list of integers."""
-    try:
-        channels = [int(ch.strip()) for ch in channel_str.split(",")]
-        return channels
-    except ValueError:
-        logging.error(f"Invalid channel format: '{channel_str}'. Expected: 16,17,18,19")
-        sys.exit(1)
 
 
 def parse_activity_toggles(activity_args) -> dict:
@@ -154,8 +150,10 @@ def parse_activity_toggles(activity_args) -> dict:
 class CCTVSupervisor:
     """Main application orchestrating all components."""
 
-    def __init__(self, channels: list, enable_display: bool, activity_toggles: dict):
-        self.channels = channels
+    def __init__(self, cameras: list, batch_size: int, duration_loop: int, enable_display: bool, activity_toggles: dict):
+        self.cameras = cameras
+        self.batch_size = batch_size
+        self.duration_loop_sec = duration_loop * 60
         self.activity_toggles = activity_toggles
         self.enable_display = enable_display
         self.running = False
@@ -176,7 +174,9 @@ class CCTVSupervisor:
         self.logger.info("=" * 60)
         self.logger.info("  CCTV Supervisor — Initializing")
         self.logger.info("=" * 60)
-        self.logger.info(f"Channels: {self.channels}")
+        self.logger.info(f"Total Cameras: {len(self.cameras)}")
+        self.logger.info(f"Batch Size: {self.batch_size}")
+        self.logger.info(f"Rotation Duration: {self.duration_loop_sec}s")
         self.logger.info(f"Display: {self.enable_display}")
         self.logger.info(f"Activity detection: sleep={'ON' if self.activity_toggles['sleep'] else 'OFF'}, "
                          f"chat={'ON' if self.activity_toggles['chat'] else 'OFF'}, "
@@ -192,9 +192,12 @@ class CCTVSupervisor:
 
         # 2. Stream manager
         self.stream_manager = StreamManager(
-            channels=self.channels,
+            cameras=self.cameras,
             rtsp_url_builder=Config.build_rtsp_url,
-            frame_skip=Config.FRAME_SKIP
+            batch_size=self.batch_size,
+            duration_loop_sec=self.duration_loop_sec,
+            frame_skip=Config.FRAME_SKIP,
+            rotation_callback=self.on_batch_rotated
         )
 
         # 3. YOLO detector
@@ -231,6 +234,22 @@ class CCTVSupervisor:
 
         self.logger.info("All components initialized ✓")
 
+    def on_batch_rotated(self, current_batch: list):
+        """Callback when stream manager rotates to a new batch of cameras."""
+        # Cleanup tracker for cameras no longer in the active batch
+        if self.tracker:
+            active_channels = [cam.get("channel") for cam in current_batch]
+            self.tracker.cleanup_inactive_channels(active_channels)
+            
+        # Notify via Telegram
+        # if self.notifier:
+        #     cam_list_text = "\n".join([f"• Ch {c.get('channel')}: {c.get('name', 'Unknown')}" for c in current_batch])
+        #     self.notifier.send_status(
+        #         f"🔄 *Rotasi Kamera*\n\n"
+        #         f"Memantau batch kamera berikutnya:\n{cam_list_text}\n\n"
+        #         f"🕐 {datetime.now().strftime('%H:%M:%S %d/%m/%Y')}"
+        #     )
+
     def start(self):
         """Start the monitoring system."""
         self.running = True
@@ -242,9 +261,9 @@ class CCTVSupervisor:
         else:
             self.logger.warning("Telegram connection failed — notifications may not work")
 
-        # Start RTSP streams
+        # Start initial batch of RTSP streams
         self.logger.info("Starting RTSP stream capture...")
-        self.stream_manager.start_all()
+        self.stream_manager.rotate_batch()
 
         # Wait for initial connection
         self.logger.info("Waiting for streams to connect (5s)...")
@@ -291,6 +310,9 @@ class CCTVSupervisor:
                             return
                         time.sleep(1)
                     continue
+                    
+                # Check for batch rotation
+                self.stream_manager.update()
 
                 # Get latest frames from all streams
                 frames = self.stream_manager.get_latest_frames()
@@ -354,7 +376,7 @@ class CCTVSupervisor:
 
                     self.logger.info(
                         f"Processing: {fps:.1f} loops/s | "
-                        f"Streams: {len(frames)}/{len(self.channels)} | "
+                        f"Streams: {len(frames)}/{min(self.batch_size, len(self.cameras))} | "
                         f"Events: {len(all_events)} | "
                         f"Active: {len(active_durations)}"
                     )
@@ -381,12 +403,12 @@ class CCTVSupervisor:
             self.display.close()
 
         # Send shutdown notification
-        if self.notifier:
-            self.notifier.send_status(
-                "⛔ *CCTV Supervisor Offline*\n\n"
-                f"Sistem monitoring berhenti.\n"
-                f"🕐 {datetime.now().strftime('%H:%M:%S %d/%m/%Y')}"
-            )
+        # if self.notifier:
+        #     self.notifier.send_status(
+        #         "⛔ *CCTV Supervisor Offline*\n\n"
+        #         f"Sistem monitoring berhenti.\n"
+        #         f"🕐 {datetime.now().strftime('%H:%M:%S %d/%m/%Y')}"
+        #     )
 
         self.logger.info("CCTV Supervisor stopped ✓")
 
@@ -400,12 +422,18 @@ def main():
     setup_logging()
     args = parse_args()
 
-    channels = parse_channels(args.channel)
+    cameras = Config.load_cameras()
+    if not cameras:
+        logging.error("No cameras configured in cameras.json. Exiting.")
+        sys.exit(1)
+        
     enable_display = args.display.lower() == "true"
     activity_toggles = parse_activity_toggles(args.activity)
 
     app = CCTVSupervisor(
-        channels=channels,
+        cameras=cameras,
+        batch_size=args.batch_size,
+        duration_loop=args.duration_loop,
         enable_display=enable_display,
         activity_toggles=activity_toggles
     )

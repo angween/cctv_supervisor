@@ -201,3 +201,22 @@ class ViolationTracker:
                     result[key] = state.duration + gap
 
         return result
+
+    def cleanup_inactive_channels(self, active_channels: List[int]):
+        """Remove state for channels that are no longer being monitored.
+        Called when stream manager rotates batches.
+        
+        Args:
+            active_channels: List of channel IDs currently being monitored.
+        """
+        for key in list(self._states.keys()):
+            channel, _ = key
+            if channel not in active_channels:
+                del self._states[key]
+                
+        for key in list(self._cooldowns.keys()):
+            channel, _ = key
+            if channel not in active_channels:
+                del self._cooldowns[key]
+        
+        logger.debug(f"Tracker cleanup complete. Active channels: {active_channels}")

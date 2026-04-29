@@ -98,11 +98,11 @@ class TelegramNotifier:
                 logger.info(
                     f"Telegram bot connected: @{bot_info.get('username', 'unknown')}"
                 )
-                return self._send_message(
-                    "✅ *CCTV Supervisor Online*\n\n"
-                    f"Sistem monitoring aktif.\n"
-                    f"🕐 {datetime.now().strftime('%H:%M:%S %d/%m/%Y')}"
-                )
+                # return self._send_message(
+                #     "✅ *CCTV Supervisor Online*\n\n"
+                #     f"Sistem monitoring aktif.\n"
+                #     f"🕐 {datetime.now().strftime('%H:%M:%S %d/%m/%Y')}"
+                # )
             else:
                 logger.error(f"Telegram bot auth failed: {response.text}")
                 return False

@@ -17447,3 +17447,387 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 2026-04-28 18:41:32 | INFO    | CCTVSupervisor       | Di luar jam kerja. [PAUSE] Monitoring NONAKTIF | Selasa | Mulai lagi: Rabu 07:00 (12j 18m lagi)
 2026-04-28 18:42:33 | INFO    | CCTVSupervisor       | Di luar jam kerja. [PAUSE] Monitoring NONAKTIF | Selasa | Mulai lagi: Rabu 07:00 (12j 17m lagi)
 2026-04-28 18:43:33 | INFO    | CCTVSupervisor       | Di luar jam kerja. [PAUSE] Monitoring NONAKTIF | Selasa | Mulai lagi: Rabu 07:00 (12j 16m lagi)
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Total Cameras: 4
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Batch Size: 4
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Rotation Duration: 300s
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Display: True
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-29 08:29:01 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-29 08:29:05 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-29 08:29:06 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-29 08:29:06 | INFO    | detector             | Pose model loaded successfully
+2026-04-29 08:29:06 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-29 08:29:07 | INFO    | detector             | Detection model loaded successfully
+2026-04-29 08:29:07 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-29 08:29:07 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:29:07 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-29 08:29:07 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-29 08:29:07 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-29 08:29:07 | WARNING | CCTVSupervisor       | Telegram connection failed — notifications may not work
+2026-04-29 08:29:07 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-29 08:29:07 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:29:07 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:29:07 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:29:07 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:29:07 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:29:07 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:29:07 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:29:07 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:29:07 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:29:07 | WARNING | stream_manager       | [Channel 18] Failed to open stream. Retrying in 5s...
+2026-04-29 08:29:09 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-29 08:29:12 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:29:14 | INFO    | CCTVSupervisor       | Streams connected: 0/4 — {16: False, 17: False, 18: False, 19: False}
+2026-04-29 08:29:14 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:29:14 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-29 08:29:14 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:29:37 | WARNING | stream_manager       | [Channel 19] Failed to open stream. Retrying in 5s...
+2026-04-29 08:29:39 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:29:39 | WARNING | stream_manager       | [Channel 18] Failed to open stream. Retrying in 5s...
+2026-04-29 08:29:40 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:29:42 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:29:44 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:29:46 | INFO    | CCTVSupervisor       | Processing: 3.2 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:29:52 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:29:57 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:03 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:09 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:12 | WARNING | stream_manager       | [Channel 19] Failed to open stream. Retrying in 5s...
+2026-04-29 08:30:12 | WARNING | stream_manager       | [Channel 18] Failed to open stream. Retrying in 5s...
+2026-04-29 08:30:14 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:17 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:30:17 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:30:20 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 2/4 | Events: 0 | Active: 1
+2026-04-29 08:30:26 | INFO    | CCTVSupervisor       | Processing: 17.9 loops/s | Streams: 2/4 | Events: 0 | Active: 1
+2026-04-29 08:30:31 | INFO    | CCTVSupervisor       | Processing: 18.1 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:37 | INFO    | CCTVSupervisor       | Processing: 18.4 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:42 | INFO    | CCTVSupervisor       | Processing: 18.1 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:47 | WARNING | stream_manager       | [Channel 19] Failed to open stream. Retrying in 5s...
+2026-04-29 08:30:47 | WARNING | stream_manager       | [Channel 18] Failed to open stream. Retrying in 5s...
+2026-04-29 08:30:48 | INFO    | CCTVSupervisor       | Processing: 18.2 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:52 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:30:52 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:30:53 | INFO    | CCTVSupervisor       | Processing: 18.0 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:30:56 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-29 08:30:56 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-29 08:30:56 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-29 08:30:56 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:30:56 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:31:06 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:31:06 | INFO    | display              | Display closed
+2026-04-29 08:31:06 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Total Cameras: 4
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Batch Size: 4
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Rotation Duration: 300s
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Display: True
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-29 08:34:23 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-29 08:34:24 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-29 08:34:25 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-29 08:34:25 | INFO    | detector             | Pose model loaded successfully
+2026-04-29 08:34:25 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-29 08:34:25 | INFO    | detector             | Detection model loaded successfully
+2026-04-29 08:34:25 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-29 08:34:25 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:34:25 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-29 08:34:25 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-29 08:34:26 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-29 08:34:26 | WARNING | CCTVSupervisor       | Telegram connection failed — notifications may not work
+2026-04-29 08:34:26 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-29 08:34:26 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:34:26 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:34:26 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:34:26 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:34:26 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:34:26 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:34:26 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:34:26 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:34:26 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:34:27 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:34:27 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-29 08:34:28 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:34:32 | INFO    | CCTVSupervisor       | Streams connected: 2/4 — {16: True, 17: True, 18: False, 19: False}
+2026-04-29 08:34:32 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:34:32 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-29 08:34:32 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:34:39 | INFO    | CCTVSupervisor       | Processing: 16.1 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:34:44 | INFO    | CCTVSupervisor       | Processing: 18.4 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:34:50 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:34:56 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:34:58 | WARNING | stream_manager       | [Channel 19] Failed to open stream. Retrying in 5s...
+2026-04-29 08:34:58 | WARNING | stream_manager       | [Channel 18] Failed to open stream. Retrying in 5s...
+2026-04-29 08:35:01 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:35:03 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:35:03 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:35:07 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-29 08:35:07 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-29 08:35:07 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-29 08:35:07 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:35:07 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:35:17 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:35:17 | INFO    | display              | Display closed
+2026-04-29 08:35:17 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Total Cameras: 4
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Batch Size: 4
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Rotation Duration: 300s
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Display: True
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-29 08:38:28 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-29 08:38:29 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-29 08:38:30 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-29 08:38:30 | INFO    | detector             | Pose model loaded successfully
+2026-04-29 08:38:30 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-29 08:38:30 | INFO    | detector             | Detection model loaded successfully
+2026-04-29 08:38:30 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-29 08:38:30 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:38:30 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-29 08:38:30 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-29 08:38:30 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-29 08:38:30 | WARNING | CCTVSupervisor       | Telegram connection failed — notifications may not work
+2026-04-29 08:38:30 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-29 08:38:30 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:38:30 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:38:30 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:38:30 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:38:30 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:38:30 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:38:30 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:38:30 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:38:30 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:38:32 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:38:32 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-29 08:38:33 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:38:34 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-29 08:38:35 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-29 08:38:37 | INFO    | CCTVSupervisor       | Streams connected: 4/4 — {16: True, 17: True, 18: True, 19: True}
+2026-04-29 08:38:37 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:38:37 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-29 08:38:37 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:38:44 | INFO    | CCTVSupervisor       | Processing: 14.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:38:50 | INFO    | CCTVSupervisor       | Processing: 16.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:38:56 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:39:02 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:39:08 | INFO    | CCTVSupervisor       | Processing: 16.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:39:13 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:39:17 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-29 08:39:17 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-29 08:39:17 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-29 08:39:17 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:39:17 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-29 08:39:17 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:39:17 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-29 08:39:17 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:39:17 | INFO    | display              | Display closed
+2026-04-29 08:39:17 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       |   CCTV Supervisor — Initializing
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Total Cameras: 4
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Batch Size: 4
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Rotation Duration: 300s
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Display: True
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Activity detection: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | RTSP Host: 172.16.0.187:554
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Frame skip: 3
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Violation duration: 120s
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Confidence threshold: 0.5
+2026-04-29 08:42:08 | INFO    | CCTVSupervisor       | Schedule: [AKTIF] Monitoring AKTIF | Rabu | Selesai jam 16:00
+2026-04-29 08:42:09 | INFO    | CCTVSupervisor       | Loading YOLO models...
+2026-04-29 08:42:10 | INFO    | detector             | Loading YOLO11s-pose model for pose estimation...
+2026-04-29 08:42:10 | INFO    | detector             | Pose model loaded successfully
+2026-04-29 08:42:10 | INFO    | detector             | Loading YOLO11s model for object detection...
+2026-04-29 08:42:10 | INFO    | detector             | Detection model loaded successfully
+2026-04-29 08:42:10 | INFO    | CCTVSupervisor       | YOLO models loaded ✓
+2026-04-29 08:42:10 | INFO    | activity_analyzer    | Activity toggles: sleep=OFF, chat=ON, phone=ON
+2026-04-29 08:42:10 | INFO    | CCTVSupervisor       | All components initialized ✓
+2026-04-29 08:42:10 | INFO    | CCTVSupervisor       | Testing Telegram connection...
+2026-04-29 08:42:11 | INFO    | notifier             | Telegram bot connected: @TjahajaBaruBot
+2026-04-29 08:42:11 | WARNING | CCTVSupervisor       | Telegram connection failed — notifications may not work
+2026-04-29 08:42:11 | INFO    | CCTVSupervisor       | Starting RTSP stream capture...
+2026-04-29 08:42:11 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:42:11 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:42:11 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:42:11 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:42:11 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:42:11 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:42:11 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:42:11 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:42:11 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:42:12 | INFO    | CCTVSupervisor       | Waiting for streams to connect (5s)...
+2026-04-29 08:42:13 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:42:14 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:42:16 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-29 08:42:17 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-29 08:42:17 | INFO    | CCTVSupervisor       | Streams connected: 4/4 — {16: True, 17: True, 18: True, 19: True}
+2026-04-29 08:42:17 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:42:17 | INFO    | CCTVSupervisor       |   Monitoring Started
+2026-04-29 08:42:17 | INFO    | CCTVSupervisor       | ============================================================
+2026-04-29 08:42:24 | INFO    | CCTVSupervisor       | Processing: 15.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:30 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:35 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:41 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:47 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:52 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:42:58 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:04 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:10 | INFO    | CCTVSupervisor       | Processing: 16.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:16 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:22 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:28 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:34 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:39 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 1 | Active: 1
+2026-04-29 08:43:45 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:51 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:43:57 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:02 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:08 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:14 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:20 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:26 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:32 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:38 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:43 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:49 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:44:55 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:01 | INFO    | CCTVSupervisor       | Processing: 15.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:09 | INFO    | CCTVSupervisor       | Processing: 12.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:15 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:21 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:27 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:32 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:38 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:44 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:49 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:45:55 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:01 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:07 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:12 | INFO    | CCTVSupervisor       | Processing: 17.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:18 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:24 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:29 | INFO    | CCTVSupervisor       | Processing: 17.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:35 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:41 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:47 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:53 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:46:58 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:04 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:10 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-29 08:47:11 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:47:11 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:47:11 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:47:11 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:47:11 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:47:11 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:47:12 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:47:13 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:47:14 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-29 08:47:16 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-29 08:47:17 | INFO    | CCTVSupervisor       | Processing: 13.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:23 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:29 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:35 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-29 08:47:41 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:47 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:52 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:47:58 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:04 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:10 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:15 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:21 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:27 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:33 | INFO    | CCTVSupervisor       | Processing: 16.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:39 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:45 | INFO    | CCTVSupervisor       | Processing: 16.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:51 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:48:57 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:02 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:08 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:14 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:20 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:26 | INFO    | CCTVSupervisor       | Processing: 16.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:31 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:37 | INFO    | CCTVSupervisor       | Processing: 16.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:43 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:49 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:49:55 | INFO    | CCTVSupervisor       | Processing: 17.3 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:01 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:07 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:13 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:18 | INFO    | CCTVSupervisor       | Processing: 17.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:24 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 1
+2026-04-29 08:50:30 | INFO    | CCTVSupervisor       | Processing: 17.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:35 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:41 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:47 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:53 | INFO    | CCTVSupervisor       | Processing: 17.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:50:58 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:04 | INFO    | CCTVSupervisor       | Processing: 17.8 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:10 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:15 | INFO    | CCTVSupervisor       | Processing: 18.1 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:21 | INFO    | CCTVSupervisor       | Processing: 17.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:27 | INFO    | CCTVSupervisor       | Processing: 17.6 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:32 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:38 | INFO    | CCTVSupervisor       | Processing: 18.2 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:44 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:49 | INFO    | CCTVSupervisor       | Processing: 17.9 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:51:55 | INFO    | CCTVSupervisor       | Processing: 17.4 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:52:01 | INFO    | CCTVSupervisor       | Processing: 17.7 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:52:06 | INFO    | CCTVSupervisor       | Processing: 18.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-29 08:52:11 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:52:11 | INFO    | stream_manager       | Starting capture for channel 16
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 16] Connecting to Channel 16
+2026-04-29 08:52:11 | INFO    | stream_manager       | Starting capture for channel 17
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 17] Connecting to Channel 17
+2026-04-29 08:52:11 | INFO    | stream_manager       | Starting capture for channel 18
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 18] Connecting to Channel 18
+2026-04-29 08:52:11 | INFO    | stream_manager       | Starting capture for channel 19
+2026-04-29 08:52:11 | INFO    | stream_manager       | [Channel 19] Connecting to Channel 19
+2026-04-29 08:52:12 | INFO    | stream_manager       | [Channel 16] Connected successfully
+2026-04-29 08:52:13 | INFO    | stream_manager       | [Channel 17] Connected successfully
+2026-04-29 08:52:13 | INFO    | CCTVSupervisor       | Processing: 13.8 loops/s | Streams: 2/4 | Events: 0 | Active: 0
+2026-04-29 08:52:14 | INFO    | stream_manager       | [Channel 19] Connected successfully
+2026-04-29 08:52:16 | INFO    | stream_manager       | [Channel 18] Connected successfully
+2026-04-29 08:52:19 | INFO    | CCTVSupervisor       | Processing: 17.0 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:52:25 | INFO    | CCTVSupervisor       | Processing: 17.5 loops/s | Streams: 4/4 | Events: 0 | Active: 0
+2026-04-29 08:52:26 | INFO    | display              | User pressed 'q' — quitting display
+2026-04-29 08:52:26 | INFO    | CCTVSupervisor       | Display closed by user
+2026-04-29 08:52:26 | INFO    | CCTVSupervisor       | Shutting down CCTV Supervisor...
+2026-04-29 08:52:26 | INFO    | stream_manager       | [Channel 18] Capture thread stopped
+2026-04-29 08:52:26 | INFO    | stream_manager       | [Channel 16] Capture thread stopped
+2026-04-29 08:52:26 | INFO    | stream_manager       | [Channel 19] Capture thread stopped
+2026-04-29 08:52:26 | INFO    | stream_manager       | [Channel 17] Capture thread stopped
+2026-04-29 08:52:26 | INFO    | stream_manager       | Current stream captures stopped
+2026-04-29 08:52:26 | INFO    | display              | Display closed
+2026-04-29 08:52:26 | INFO    | CCTVSupervisor       | CCTV Supervisor stopped ✓

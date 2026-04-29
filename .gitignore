@@ -12,4 +12,5 @@ logs/
 screenshots/
 .idea/
 .vscode/
+cameras.json
 Planning.md

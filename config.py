@@ -5,6 +5,7 @@ Loads environment variables from .env file and provides
 centralized configuration for the CCTV Supervisor application.
 """
 
+import json
 import os
 from datetime import datetime, time
 from dotenv import load_dotenv
@@ -62,17 +63,43 @@ class Config:
     ACTIVITY_GAP_TOLERANCE = 5.0        # seconds — max gap before resetting counter
 
     @staticmethod
-    def build_rtsp_url(channel: int) -> str:
-        """Build RTSP URL for a given camera channel number.
+    def load_cameras() -> list:
+        """Load camera configuration from cameras.json."""
+        cameras_file = "cameras.json"
+        if not os.path.exists(cameras_file):
+            return []
+        
+        try:
+            with open(cameras_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading {cameras_file}: {e}")
+            return []
+
+    @staticmethod
+    def build_rtsp_url(camera_info: dict) -> str:
+        """Build RTSP URL for a given camera configuration.
 
         Format: rtsp://{user}:{password}@{host}/Streaming/Channels/{channel}{quality}
-        Example: rtsp://pooling:YamahaNo1@172.16.0.187:554/Streaming/Channels/1601
         """
+        # Allow complete URL override
+        if "rtsp_url" in camera_info:
+            return camera_info["rtsp_url"]
+            
+        # Get individual components, with fallbacks
+        channel_id = camera_info.get("channel")
+        # rtsp_channel allows overriding the physical channel number in the URL (e.g. 1 instead of 18)
+        rtsp_channel = camera_info.get("rtsp_channel", channel_id)
+        
+        host = camera_info.get("host", Config.RTSP_HOST)
+        user = camera_info.get("user", Config.RTSP_USER)
+        password = camera_info.get("password", Config.RTSP_PASSWORD)
+        
         # Channel format: first digits = channel number, last digit = quality
-        channel_path = f"{channel}{Config.RTSP_QUALITY}"
+        channel_path = f"{rtsp_channel}{Config.RTSP_QUALITY}"
         return (
-            f"rtsp://{Config.RTSP_USER}:{Config.RTSP_PASSWORD}"
-            f"@{Config.RTSP_HOST}/Streaming/Channels/{channel_path}"
+            f"rtsp://{user}:{password}"
+            f"@{host}/Streaming/Channels/{channel_path}"
         )
 
     @staticmethod
