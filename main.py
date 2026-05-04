@@ -222,7 +222,8 @@ class CCTVSupervisor:
         # 6. Telegram notifier
         self.notifier = TelegramNotifier(
             bot_token=Config.TELEGRAM_BOT_TOKEN,
-            chat_ids=Config.TELEGRAM_CHAT_IDS
+            chat_ids=Config.TELEGRAM_CHAT_IDS,
+            cameras=self.cameras
         )
 
         # 7. CSV logger

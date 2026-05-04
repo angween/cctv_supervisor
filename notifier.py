@@ -31,18 +31,21 @@ class TelegramNotifier:
 
     BASE_URL = "https://api.telegram.org/bot{token}"
 
-    def __init__(self, bot_token: str, chat_ids: list, max_retries: int = 3):
+    def __init__(self, bot_token: str, chat_ids: list, max_retries: int = 3, cameras: list = None):
         """Initialize Telegram notifier.
 
         Args:
             bot_token: Telegram Bot API token.
             chat_ids: List of target chat/user IDs for notifications.
             max_retries: Maximum retry attempts for failed sends.
+            cameras: Optional list of camera configurations for name lookup.
         """
         self.bot_token = bot_token
         self.chat_ids = chat_ids
         self.max_retries = max_retries
         self.base_url = self.BASE_URL.format(token=bot_token)
+        self.cameras = cameras or []
+        self.camera_names = {cam.get("channel"): cam.get("name", f"Channel {cam.get('channel')}") for cam in self.cameras}
 
     def send_violation(self, violation: Violation) -> bool:
         """Send a violation alert to Telegram with screenshot.
@@ -56,10 +59,12 @@ class TelegramNotifier:
         activity_name = ACTIVITY_NAMES.get(
             violation.activity_type, violation.activity_type
         )
+        
+        camera_name = self.camera_names.get(violation.channel, f"Channel {violation.channel}")
 
         caption = (
             f"🚨 *PELANGGARAN TERDETEKSI*\n\n"
-            f"📹 Kamera: Channel {violation.channel}\n"
+            f"📹 Kamera: {camera_name}\n"
             f"⚠️ Aktivitas: *{activity_name}*\n"
             f"⏱ Durasi: {violation.duration:.0f} detik\n"
             f"🕐 Waktu mulai: {violation.start_time.strftime('%H:%M:%S')}\n"
