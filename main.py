@@ -219,11 +219,13 @@ class CCTVSupervisor:
             cooldown=Config.TELEGRAM_COOLDOWN
         )
 
-        # 6. Telegram notifier
+        # 6. Telegram/Webhook notifier
         self.notifier = TelegramNotifier(
             bot_token=Config.TELEGRAM_BOT_TOKEN,
             chat_ids=Config.TELEGRAM_CHAT_IDS,
-            cameras=self.cameras
+            cameras=self.cameras,
+            webhook_url=Config.WEBHOOK_URL,
+            webhook_auth=Config.WEBHOOK_AUTH
         )
 
         # 7. CSV logger

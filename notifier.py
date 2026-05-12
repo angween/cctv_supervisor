@@ -31,14 +31,16 @@ class TelegramNotifier:
 
     BASE_URL = "https://api.telegram.org/bot{token}"
 
-    def __init__(self, bot_token: str, chat_ids: list, max_retries: int = 3, cameras: list = None):
-        """Initialize Telegram notifier.
+    def __init__(self, bot_token: str, chat_ids: list, max_retries: int = 3, cameras: list = None, webhook_url: str = "", webhook_auth: str = ""):
+        """Initialize Telegram and Webhook notifier.
 
         Args:
             bot_token: Telegram Bot API token.
             chat_ids: List of target chat/user IDs for notifications.
             max_retries: Maximum retry attempts for failed sends.
             cameras: Optional list of camera configurations for name lookup.
+            webhook_url: Optional URL for webhook notifications.
+            webhook_auth: Optional Authorization header for webhook.
         """
         self.bot_token = bot_token
         self.chat_ids = chat_ids
@@ -46,6 +48,8 @@ class TelegramNotifier:
         self.base_url = self.BASE_URL.format(token=bot_token)
         self.cameras = cameras or []
         self.camera_names = {cam.get("channel"): cam.get("name", f"Channel {cam.get('channel')}") for cam in self.cameras}
+        self.webhook_url = webhook_url
+        self.webhook_auth = webhook_auth
 
     def send_violation(self, violation: Violation) -> bool:
         """Send a violation alert to Telegram with screenshot.
@@ -72,10 +76,15 @@ class TelegramNotifier:
             f"📅 Tanggal: {violation.end_time.strftime('%d/%m/%Y')}"
         )
 
+        telegram_success = False
         if violation.screenshot is not None:
-            return self._send_photo(violation.screenshot, caption)
+            telegram_success = self._send_photo(violation.screenshot, caption)
         else:
-            return self._send_message(caption)
+            telegram_success = self._send_message(caption)
+
+        webhook_success = self._send_webhook(violation, camera_name, activity_name, caption)
+        
+        return telegram_success or webhook_success
 
     def send_status(self, message: str) -> bool:
         """Send a simple status message.
@@ -213,3 +222,54 @@ class TelegramNotifier:
             logger.error("Telegram photo send failed for all chat IDs")
             
         return any_success
+
+    def _send_webhook(self, violation: Violation, camera_name: str, activity_name: str, caption: str) -> bool:
+        """Send a violation alert to the configured Webhook."""
+        if not self.webhook_url:
+            return False
+
+        headers = {}
+        if self.webhook_auth:
+            headers["Authorization"] = self.webhook_auth
+
+        data = {
+            "camera_name": camera_name,
+            "activity": activity_name,
+            "duration": str(int(violation.duration)),
+            "start_time": violation.start_time.strftime('%H:%M:%S'),
+            "end_time": violation.end_time.strftime('%H:%M:%S'),
+            "date": violation.end_time.strftime('%d/%m/%Y'),
+            "caption": caption
+        }
+
+        files = None
+        if violation.screenshot is not None:
+            success, buffer = cv2.imencode(".jpg", violation.screenshot, [cv2.IMWRITE_JPEG_QUALITY, 85])
+            if success:
+                # Provide a dummy name, bytes, and content type
+                files = {"photo": ("violation.jpg", buffer.tobytes(), "image/jpeg")}
+
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                # Re-create files dict each attempt because requests reads the stream
+                if files and violation.screenshot is not None:
+                    files = {"photo": ("violation.jpg", buffer.tobytes(), "image/jpeg")}
+                    response = requests.post(self.webhook_url, headers=headers, data=data, files=files, timeout=30)
+                else:
+                    response = requests.post(self.webhook_url, headers=headers, data=data, timeout=15)
+
+                if response.status_code in (200, 201, 202, 204):
+                    logger.debug("Webhook message sent successfully")
+                    return True
+                else:
+                    logger.warning(
+                        f"Webhook send failed (attempt {attempt}): [{response.status_code}] {response.text}"
+                    )
+
+            except requests.RequestException as e:
+                logger.warning(
+                    f"Webhook send error (attempt {attempt}): {e}"
+                )
+
+        logger.error("Webhook send failed after all retries")
+        return False

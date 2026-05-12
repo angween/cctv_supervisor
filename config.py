@@ -32,6 +32,10 @@ class Config:
     ]
     TELEGRAM_COOLDOWN = int(os.getenv("TELEGRAM_COOLDOWN", "300"))  # 5 minutes
 
+    # Webhook Configuration
+    WEBHOOK_URL = os.getenv("WEBHOOK_URL", "")
+    WEBHOOK_AUTH = os.getenv("WEBHOOK_AUTH", "")
+
     # Detection Settings
     VIOLATION_DURATION = int(os.getenv("VIOLATION_DURATION", "60"))  # seconds
     FRAME_SKIP = int(os.getenv("FRAME_SKIP", "3"))
